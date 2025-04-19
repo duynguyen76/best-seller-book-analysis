@@ -29,7 +29,6 @@
 - Pandas, NumPy
 - Matplotlib, Seaborn
 - Scikit-learn (TF-IDF, KMeans)
-- NLTK / SpaCy (if used for text preprocessing)
 
 ---
 
@@ -49,6 +48,11 @@
 - **Data visualization is key** for spotting trends and outliers you can’t see in raw numbers.
 - **Clustering adds structure** to complex datasets and can help categorize patterns in consumer markets.
 - Being a bestseller isn’t just about content — it's also about language, branding, and potentially timing.
+
+  ---
+
+  ## Reference:
+- Dataset: https://www.kaggle.com/datasets/asaniczka/amazon-kindle-books-dataset-2023-130k-books
 
 
 
