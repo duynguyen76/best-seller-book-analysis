@@ -54,7 +54,6 @@
 - Price is a strong indicator of whether a book becomes a bestseller, as reflected in its prominence in decision-making processes across models.
 - Text-based features, such as keywords derived from book titles, provide valuable thematic context, helping refine predictions.
 - Resampling imbalanced data ensured better representation of minority classes, enhancing the overall model fairness and performance.
-- Logistic Regression struggles to capture non-linear relationships between features, limiting its effectiveness in our use case.
 - Random Forest Classifier, when fine-tuned using hyperparameter tuning (e.g., GridSearchCV), performed consistently well, achieving high accuracy and balanced recall values across training and testing datasets.
 - Decision Trees provide interpretable results, clearly outlining factors influencing bestseller predictions, but require constraints to prevent overfitting.
 - Combining textual and numeric features results in a comprehensive approach, enabling acceptable accuracy and recall rates for predicting bestseller status.
@@ -64,9 +63,8 @@ It is possible to predict bestseller status of a book using a well-tuned ensembl
 ###  What We Learned:
 - **Handling the imbalanced datasets**
 - **Text data holds a lot of predictive power** — even simple TF-IDF scoring can reveal big differences in language between successful and average books.
-- **Data visualization is key** for spotting trends and outliers you can’t see in raw numbers.
-- **Clustering adds structure** to complex datasets and can help categorize patterns in consumer markets.
-- Being a bestseller isn’t just about content — it's also about language, branding, and potentially timing.
+- **Data visualization is key** for spotting trends and outliers you can’t see in raw numbers.in consumer markets.
+- **How to use and upload file into Github**
 
   ---
 
