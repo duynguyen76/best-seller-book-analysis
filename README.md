@@ -7,10 +7,16 @@
 
 # Contributor:
 
-- **Nguyen** **Phuong** **Thuy**: 
-- **Nguyen** **Duy**:
-- **Chu** **Gia** **Han**:
+- **Nguyen** **Phuong** **Thuy**
+- **Nguyen** **Duy**
+- **Chu** **Gia** **Han**
 
+---
+
+# Problem definition
+
+- Can we tell if the book will be the best seller based on it writer, review and title?
+- Which model will fit the best to predict in this problem?
 ---
 
 ## Features
@@ -41,6 +47,19 @@
 - **Numeric Patterns**: Visualizations (boxplots, violin plots, histograms) revealed differences in distributions of variables like *price* and *stars*. These helped us spot outliers and patterns in how books are priced and rated.
 
 - **Clustering**: K-Means clustering grouped books into 31 segments based on their numeric features. This opens the door for more targeted analysis — like identifying clusters of high-priced, low-rated books or cheap bestsellers.
+
+---
+
+## **Conclusion**
+- Price is a strong indicator of whether a book becomes a bestseller, as reflected in its prominence in decision-making processes across models.
+- Text-based features, such as keywords derived from book titles, provide valuable thematic context, helping refine predictions.
+- Resampling imbalanced data ensured better representation of minority classes, enhancing the overall model fairness and performance.
+- Logistic Regression struggles to capture non-linear relationships between features, limiting its effectiveness in our use case.
+- Random Forest Classifier, when fine-tuned using hyperparameter tuning (e.g., GridSearchCV), performed consistently well, achieving high accuracy and balanced recall values across training and testing datasets.
+- Decision Trees provide interpretable results, clearly outlining factors influencing bestseller predictions, but require constraints to prevent overfitting.
+- Combining textual and numeric features results in a comprehensive approach, enabling acceptable accuracy and recall rates for predicting bestseller status.
+
+It is possible to predict bestseller status of a book using a well-tuned ensemble model, leveraging both textual and numeric data with robust cross-validation techniques.
 
 ###  What We Learned:
 - **Handling the imbalanced datasets**
