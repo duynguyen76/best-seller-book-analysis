@@ -29,7 +29,6 @@
 - Pandas, NumPy
 - Matplotlib, Seaborn
 - Scikit-learn (TF-IDF, KMeans)
-- NLTK / SpaCy (if used for text preprocessing)
 
 ---
 
