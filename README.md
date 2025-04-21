@@ -7,9 +7,9 @@
 
 # Contributor:
 
-- **Nguyen** **Phuong** **Thuy**: Exploratory data analysis, feature Egineering, training Model (Classification Tree and Random Forest).
-- **Nguyen** **Duy**: Cleaning data, writing report.
-- **Chu** **Gia** **Han**: Data visualisation, presentation slide.
+- **Nguyen** **Phuong** **Thuy**: Exploratory Data Analysis, Feature Egineering, Training Model (Classification Tree and Random Forest).
+- **Nguyen** **Duy**: Cleaning data, Writing report.
+- **Chu** **Gia** **Han**: Data visualisation, Presentation slide.
 
 ---
 
